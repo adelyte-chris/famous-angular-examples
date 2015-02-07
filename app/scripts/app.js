@@ -95,5 +95,10 @@ angular.module('integrationApp',['famous.angular', 'ui.router'])
         url: "/flipper",
         templateUrl: "views/flipper.html",
         controller: "FlipperCtrl"
+      })
+      .state("drawer-layout", {
+        url: "/drawer-layout",
+        templateUrl: "views/drawer-layout.html",
+        controller: "DrawerLayoutCtrl"
       });
     });
